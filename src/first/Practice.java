@@ -16,6 +16,8 @@ public class Practice {
 	public static void main(String[] args) throws InterruptedException, IOException {
 		
 		
+		
+		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gopi Devarapu\\eclipse-workspace\\Seleniumjava\\Resources\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://mlrmultisoftsolutions.com/");
