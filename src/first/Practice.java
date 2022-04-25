@@ -24,7 +24,6 @@ public class Practice {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
 		List<WebElement> links = driver.findElements(By.tagName("a"));
-		Thread.sleep(3000);
 		System.out.println("No. of links are: "+links.size());
 		
 		for(WebElement element : links) {
